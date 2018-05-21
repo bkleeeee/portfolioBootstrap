@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Portfolio</title>
+    <!--reset stylesheet to remove browser styling-->
+    <link href="./resources/styles/reset.css" type="text/css" rel="stylesheet" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!--custome stylesheet-->
+    <link href="./resources/styles/style.css" type="text/css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">Lee Web Development</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#">Skills</a></li>
+              <li><a href="#">Contact</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <div class="jumbotron">
+          <div class="container">
+            <h1>BKLEE: WEB DEVELOPER</h1>
+            <p>Web developer with a passion for creating beautiful, responsive websites.</p><br>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+          </div>
+        </div>
+      </section>
+      <section>
+
+        <div class="fluid-container">
+          <!-- 1x3 Bootstrap grid of skills with icons -->
+          <div class="row"> <!--add class "row" for each row -->
+            <!--Frontend Column-->
+            <h1 class="text-center sect-title">Technical Skills</h1>
+            <div class="col-sm-4 skill text-center"> <!--add class col-[size}-[widthspan]. size can be xs/sm/md/lg. widthspan can be 1 through 12 out of 12.-->
+              <span aria-hidden="true" class="fa fa-images fa-5x"></span>
+              <h3>Frontend</h3>
+              <p>Bootstrap</p>
+              <p>Sass</p>
+              <p>CSS3</p>
+            </div>
+
+            <!--Backend Column-->
+            <div class="col-sm-4 skill text-center">
+              <span aria-hidden="true" class="fa fa-cog fa-5x"></span>
+              <h3>Backend</h3>
+              <p>SQL</p>
+              <p>MongoDB</p>
+              <p>Express.js</p>
+            </div>
+
+            <!--Design Column-->
+            <div class="col-sm-4 skill text-center">
+              <span aria-hidden="true" class="fa fa-hand-point-up fa-5x"></span>
+              <h3>Interactive</h3>
+              <p>Captivate2017</p>
+              <p>Articulate</p>
+              <p>HTML5</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--photo gallery section 2x3 bootstrap grid-->
+      <section>
+
+        <!--row 1-->
+        <div class="row">
+          <div class='col-sm-4'>
+            <img class="img-responsive" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="cat face"/>
+            <h4 class="text-center" href="#">Cat 1</h4>
+          </div>
+          <div class='col-sm-4'>
+            <img class="img-responsive" src="https://images.pexels.com/photos/730896/pexels-photo-730896.jpeg" alt="cat face"/>
+            <h4 class="text-center" href="#">Cat 2</h4>
+          </div>
+          <div class='col-sm-4'>
+            <img class="img-responsive" src="https://images.pexels.com/photos/126407/pexels-photo-126407.jpeg?auto=compress" alt="cat face"/>
+            <h4 class="text-center" href="#">Cat 3</h4>
+          </div>
+        </div>
+
+        <!--row 2-->
+        <div class="row">
+          <div class='col-sm-4'>
+            <img class="img-responsive" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="cat face"/>
+            <h4 class="text-center" href="#">Cat 4</h4>
+          </div>
+          <div class='col-sm-4'>
+            <img class="img-responsive" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="cat face"/>
+            <h4 class="text-center" href="#">Cat 5</h4>
+          </div>
+          <div class='col-sm-4'>
+            <img class="img-responsive" src="https://images.pexels.com/photos/104827/cat-pet-animal-domestic-104827.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="cat face"/>
+            <h4 class="text-center" href="#">Cat 6</h4>
+          </div>
+        </div>
+      </section>
+
+      <!--contact section-->
+      <section>
+        <div class="container">
+        <!--contact icon 1x4 bootstrap grid-->
+          <div class="row">
+            <div class="col-sm-6 col-md-3">
+              <div class="contact text-center">
+                <a href="#">
+                  <span aria-hidden="true" class="fab fa-facebook-f fa-5x"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="contact text-center">
+                <a href="#">
+                  <span aria-hidden="true" class="fab fa-github fa-5x"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="contact text-center">
+                <a href="#">
+                  <span aria-hidden="true" class="fas fa-envelope fa-5x"></span>
+                </a>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <div class="contact text-center">
+                <a href="#">
+                  <span aria-hidden="true" class="fab fa-linkedin fa-5x"></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </section>
+    </main>
+
+    <footer class="text-right">
+      Copyright &copy; 2018 Lee. All rights reserved.
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
